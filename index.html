@@ -187,16 +187,6 @@
     <script src="/Public/src/js/style.js"></script>
     <!-- 工具 script end -->
     <script>
-        function setCookie(name, value) {
-            var Days = 30;
-            var exp = new Date();
-            exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
-            document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
-        }
-        $(".language").click(function () {
-            setCookie("lang", $(this).attr("data"));
-            window.location.reload();
-        });
         //滚动底部请求数据
         var windowHeight = $(window).height(),
             canLoad = true;
@@ -226,9 +216,6 @@
                 }
             }
         }
-        $(".title").click(function () {
-            window.location.href = "./";
-        })
     </script>
 
     <script>
