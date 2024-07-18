@@ -31,3 +31,7 @@ $('.menu .tabBtnBox>li>ul>li').hover(function() {
     $(this).parent().children().removeClass('active');
     $(this).addClass('active');
 });
+
+$("div.title").click(function(){
+    window.location.href = "/";
+})
