@@ -34,7 +34,7 @@ $('.menu .tabBtnBox>li>ul>li').hover(function() {
 
 $("div.title").click(function(){
     var currentUrl = window.location.href;
-    if(currentUrl.indexOf("_en") != -1) {
+    if(currentUrl.indexOf("_en") == -1) {
         window.location.href = "/";
     } else {
         window.location.href = "/index_en";
