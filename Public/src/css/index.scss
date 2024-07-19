@@ -277,7 +277,7 @@ body {
     .menu {
         position: relative;
         @include respond-to(sm) {
-            display: none;
+            display: block;
         }
         .tabBtnBox {
             height: 80px;
