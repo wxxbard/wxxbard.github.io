@@ -21,11 +21,6 @@ $('.menu > ul > li').hover(function() {
 }, function() {
     $(this).children().removeClass('show');
 });
-$('.menu > ul > li').hover(function() {
-    $(this).children().addClass('show');
-}, function() {
-    $(this).children().removeClass('show');
-});
 
 $('.menu .tabBtnBox>li>ul>li').hover(function() {
     $(this).parent().children().removeClass('active');
